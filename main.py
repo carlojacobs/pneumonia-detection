@@ -82,7 +82,6 @@ def read_json_to_array(filename):
 
 def format_data(files, labels):
     """Takes an array of dcm files and an array of the labels and properly manages the data"""
-
     print("[*] Formatting the data...")
     print("[*] Aligning the labels")
     # Align the labels with the dcm files
